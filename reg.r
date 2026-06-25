@@ -3,11 +3,11 @@ install.packages("readxl")
 library("readxl")
 
 #Settin the working directory
-setwd("F:\\Debo-Traj-Data\\draft2\\supplementary")
+setwd("F:\\Debo-Traj-Data\\draft2\\supplementary")   #Set your own working directory
 getwd()
 
 #Read the experimental data
-df <-read_excel("F:\\Debo-Traj-Data\\draft2\\supplementary\\regress.xlsx")
+df <-read_excel("F:\\Debo-Traj-Data\\draft2\\supplementary\\regress.xlsx")  #Read your dataframe from the repository
 df
 
 #Statistical summary of the data
